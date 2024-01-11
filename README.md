@@ -1,39 +1,34 @@
-# create-svelte
+# NEXT JOB Frontend
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Demo
 
-## Creating a project
+Explore the [NEXT JOB](https://next-jobs-frontend-bot.pages.dev/) to see the project in action!
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Overview
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Welcome to the NEXT JOB Frontend repository! This project is the culmination of our efforts at a programming school in Malaysia, where we delved into both front-end and back-end development. Despite being labeled as a front-end project, it encapsulates the entire stack, offering a comprehensive job posting site.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Technologies Used
 
-## Developing
+- **Svelte:** Main front-end framework
+- **pocketbase:** Open-source back-end
+- **Front-end Technologies:** HTML, CSS, JS, Svelte, Node.js
+- **Backend Technologies:** Node.js, Prisma, Docker
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Project Structure
 
-```bash
-npm run dev
+- **src/:** Contains the source code for the Svelte front-end.
+- **public/:** Stores static assets used in the front-end.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Running the Frontend Locally
 
-## Building
+1. **Ensure you have Node.js installed.**
+2. **Clone this repository:** `git clone [repository-url]`
+3. **Navigate to the project folder:** `cd next-job-frontend`
+4. **Install dependencies:** `npm install`
+5. **Run the development server:** `npm run dev`
 
-To create a production version of your app:
+## Connecting with the Backend
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-# next-jobs-frontend
+- The front-end communicates with the back-end through pocketbase using specified endpoints.
+- Ensure the pocketbase server is running and configured properly.
